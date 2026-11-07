@@ -95,7 +95,7 @@
     <!-- Header -->
     <div class="text-center">
       <h1>DEVAN MANOJ</h1>
-      <p class="subtitle">Software Engineer I</p>
+      <p class="subtitle">Software Development Engineer</p>
       <div class="contact mt-3">
         <a href="https://www.linkedin.com/in/devan-manoj-920b68241" target="_blank">LinkedIn</a>
         <a href="mailto:devan1231017@gmail.com">Email</a>
@@ -106,12 +106,12 @@
 
     <!-- Profile -->
     <section class="section-spacing">
-      <h2>Professional Summary</h2>
+      <h2>Profile</h2>
       <p>
-        Software Engineer with hands-on experience designing scalable backend systems and AI-powered platforms.
-        Specialized in microservices architecture, high-throughput APIs, and Large Language Model (LLM)
-        integrations in production environments. Strong expertise in distributed systems, performance optimization,
-        cloud-native deployments, and GenAI-driven architectures focused on measurable business impact and SLA compliance.
+        Results-driven Software Development Engineer with hands-on experience building scalable backend systems and
+        AI-powered platforms. Skilled in designing microservices, APIs, and integrating large language models into
+        production workflows. Strong background in performance tuning, cloud deployment, and search/indexing systems,
+        with proven ability to improve SLA compliance, scalability, and response quality in GenAI-driven applications.
       </p>
     </section>
 
@@ -121,67 +121,100 @@
 
       <div class="card-custom">
         <h5>Software Engineer I</h5>
-        <p class="subtitle">Thermo Fisher Scientific | May 2024 – Present</p>
+        <p class="subtitle">Thermo Fisher Scientific | 05/2024 – Present</p>
         <ul>
-          <li>Designed and deployed scalable backend services powering AI-driven image and video generation pipelines with agent-based validation.</li>
-          <li>Enhanced enterprise ChatGPT workflows through improved orchestration, secure API integrations, and role-based authorization.</li>
-          <li>Reduced latency and improved SLA adherence by refactoring orchestration logic and scaling cloud infrastructure (~20x acceleration in governance workflows).</li>
-          <li>Architected high-throughput image-processing pipelines supporting automated product content generation.</li>
-          <li>Built centralized user management microservice enabling fine-grained agent and tool-level access control.</li>
-          <li>Conducted load testing (10,000 concurrent users) to validate scalability and system resilience.</li>
-          <li>Migrated structured data from Blob Storage to Cosmos DB with validated integrity and performance optimization.</li>
-          <li>Integrated Azure Cognitive Search Skills for multilingual ingestion, document extraction, and metadata enrichment.</li>
+          <li>Designed and deployed scalable backend services for AI-driven image and video generation pipelines, supporting production GenAI content workflows.</li>
+          <li>Built agent-based hallucination validation workflows to improve generated content reliability and production readiness.</li>
+          <li>Enhanced ChatGPT-based workflow authorization, orchestration, and API integrations, improving system security and response consistency.</li>
+          <li>Reduced response latency and improved SLA adherence by scaling cloud infrastructure and refactoring orchestration logic.</li>
+          <li>Engineered high-throughput image-processing pipelines with optimised API endpoints, enabling automated PDP content workflows.</li>
+          <li>Architected a user management microservice enabling agent- and tool-level access control within a microservices ecosystem, improving modularity and platform security.</li>
+          <li>Executed JMeter-based load testing for up to 10,000 concurrent users, identifying bottlenecks and validating system scalability, stability, and fault tolerance under peak traffic.</li>
+          <li>Migrated structured JSON data from blob storage to Cosmos DB while ensuring data integrity, and deployed production-grade AWS infrastructure to resolve deployment blockers and improve operational reliability.</li>
+          <li>Integrated Azure Search Skills for language detection, translation, image analysis, and document extraction, and implemented predictive keyphrase extraction and citation features, improving multilingual retrieval accuracy, search relevance, and user trust.</li>
         </ul>
-      </div>
-    </section>
-
-    <!-- Skills -->
-    <section class="section-spacing">
-      <h2>Technical Skills</h2>
-
-      <div>
-        <h6>AI & Machine Intelligence</h6>
-        <span class="badge-skill">RAG Pipelines</span>
-        <span class="badge-skill">Embeddings</span>
-        <span class="badge-skill">Vector Search</span>
-        <span class="badge-skill">Agent Frameworks</span>
-        <span class="badge-skill">Prompt Engineering</span>
-        <span class="badge-skill">OpenAI / Azure AI</span>
-      </div>
-
-      <div class="mt-4">
-        <h6>Software Engineering</h6>
-        <span class="badge-skill">FastAPI</span>
-        <span class="badge-skill">REST APIs</span>
-        <span class="badge-skill">Microservices</span>
-        <span class="badge-skill">Docker</span>
-        <span class="badge-skill">Kubernetes</span>
-        <span class="badge-skill">Terraform</span>
-        <span class="badge-skill">CI/CD</span>
-        <span class="badge-skill">Cloud Scaling</span>
       </div>
     </section>
 
     <!-- Projects -->
     <section class="section-spacing">
-      <h2>Key Projects</h2>
+      <h2>Projects</h2>
 
       <div class="card-custom">
         <h6>AI-Based Product Image Generation & Validation System</h6>
         <ul>
-          <li>Built automated backend system for product image generation with structured hallucination detection workflows.</li>
-          <li>Developed scalable processing pipelines supporting high-volume image outputs.</li>
-          <li>Improved inference reliability through validation and orchestration optimizations.</li>
+          <li>Built an automated backend system for product image generation with agent-based quality validation to detect hallucinations.</li>
+          <li>Developed scalable processing pipelines supporting high-throughput (3K) image outputs.</li>
+          <li>Built a UI enabling users to test the pipeline on individual images and iteratively refine outputs to explore the tool's full range of capabilities.</li>
+          <li>Improved inference reliability through orchestration enhancements and structured validation workflows.</li>
         </ul>
       </div>
 
       <div class="card-custom">
         <h6>LLM-Integrated Video Generation Pipeline</h6>
         <ul>
-          <li>Automated AI video generation from image inputs.</li>
-          <li>Re-engineered pipeline using FFmpeg for cost optimization and faster execution.</li>
-          <li>Reduced end-to-end latency via backend orchestration improvements.</li>
+          <li>Refined video generation pipeline and evaluated LLM integration strategies to improve orchestration reliability, generation consistency, and end-to-end latency.</li>
+          <li>Automated AI video creation from image URLs using SORA video model, enabling streamlined multimodal content generation workflows.</li>
+          <li>Re-engineered the workflow using FFmpeg to achieve equivalent output quality at significantly lower cost and faster execution, with greater processing control and repeatability; adopted as the primary production approach.</li>
         </ul>
+      </div>
+
+      <div class="card-custom">
+        <h6>Competitor Product Intelligence Pipeline</h6>
+        <ul>
+          <li>Built a 5-phase pipeline to extract, structure, and internally surface competitor antibody product data, operating in compliance with source sites' robots.txt policies.</li>
+          <li>Automated extraction of competitor product listings and full-page HTML capture, followed by targeted key-point extraction, cleaning, and normalization.</li>
+          <li>Ingested processed data into an internal database, enabling SKU-level competitor lookups matched against internal product catalog using antibody-specific attributes.</li>
+          <li>Delivered a queryable interface allowing internal teams to retrieve competitor SKU details alongside corresponding matched internal products to support competitive analysis.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section-spacing">
+      <h2>Skills</h2>
+
+      <div>
+        <h6>Backend</h6>
+        <span class="badge-skill">FastAPI</span>
+        <span class="badge-skill">REST APIs</span>
+        <span class="badge-skill">Microservices</span>
+        <span class="badge-skill">API Design</span>
+      </div>
+
+      <div class="mt-4">
+        <h6>AI / ML</h6>
+        <span class="badge-skill">LLMs</span>
+        <span class="badge-skill">RAG Pipelines</span>
+        <span class="badge-skill">Embeddings</span>
+        <span class="badge-skill">Vector Search</span>
+        <span class="badge-skill">Agentic Workflows</span>
+        <span class="badge-skill">Prompt Engineering</span>
+        <span class="badge-skill">OpenAI / Azure AI</span>
+      </div>
+
+      <div class="mt-4">
+        <h6>Cloud & Infrastructure</h6>
+        <span class="badge-skill">AWS</span>
+        <span class="badge-skill">Microsoft Azure</span>
+        <span class="badge-skill">Docker</span>
+        <span class="badge-skill">Kubernetes</span>
+        <span class="badge-skill">Terraform</span>
+        <span class="badge-skill">CI/CD</span>
+      </div>
+
+      <div class="mt-4">
+        <h6>Databases & Search</h6>
+        <span class="badge-skill">Cosmos DB</span>
+        <span class="badge-skill">AWS RDS</span>
+        <span class="badge-skill">Azure AI Search</span>
+      </div>
+
+      <div class="mt-4">
+        <h6>Tools</h6>
+        <span class="badge-skill">Git</span>
+        <span class="badge-skill">JMeter</span>
+        <span class="badge-skill">FFmpeg</span>
       </div>
     </section>
 
@@ -189,15 +222,15 @@
     <section class="section-spacing">
       <h2>Education</h2>
       <p>
-        Bachelor of Technology – Artificial Intelligence Engineering<br>
         Amrita Vishwa Vidyapeetham<br>
-        2020 – 2024
+        Bachelor of Technology: Artificial Intelligence Engineering<br>
+        09/2020 – 05/2024
       </p>
     </section>
 
     <!-- Footer -->
     <footer>
-      © <span id="year"></span> Devan Manoj | Software Engineer
+      © <span id="year"></span> Devan Manoj | Software Development Engineer
     </footer>
 
     <script>
